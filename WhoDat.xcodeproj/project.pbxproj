@@ -13,6 +13,14 @@
 		5BBB14321E16087500ABB49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB14311E16087500ABB49D /* Assets.xcassets */; };
 		5BBB14351E16087500ABB49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB14331E16087500ABB49D /* LaunchScreen.storyboard */; };
 		5BBB14401E16087500ABB49D /* WhoDatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB143F1E16087500ABB49D /* WhoDatTests.swift */; };
+		5BBB144B1E160F7F00ABB49D /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB144A1E160F7F00ABB49D /* Cartfile */; };
+		5BBB144E1E16103A00ABB49D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBB144D1E16103A00ABB49D /* SwiftyJSON.framework */; };
+		5BBB14511E16137700ABB49D /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BBB144D1E16103A00ABB49D /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BBB14531E1614A300ABB49D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBB14521E1614A300ABB49D /* Alamofire.framework */; };
+		5BBB14541E1614AD00ABB49D /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BBB14521E1614A300ABB49D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BBB14561E16224100ABB49D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB14551E16224100ABB49D /* Game.swift */; };
+		5BBB14581E16225A00ABB49D /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB14571E16225A00ABB49D /* Team.swift */; };
+		5BBB145A1E16226500ABB49D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB14591E16226500ABB49D /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5BBB14501E16136600ABB49D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5BBB14541E1614AD00ABB49D /* Alamofire.framework in CopyFiles */,
+				5BBB14511E16137700ABB49D /* SwiftyJSON.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5BBB14271E16087500ABB49D /* WhoDat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoDat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB142A1E16087500ABB49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +58,12 @@
 		5BBB143B1E16087500ABB49D /* WhoDatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhoDatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB143F1E16087500ABB49D /* WhoDatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoDatTests.swift; sourceTree = "<group>"; };
 		5BBB14411E16087500ABB49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBB144A1E160F7F00ABB49D /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		5BBB144D1E16103A00ABB49D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		5BBB14521E1614A300ABB49D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5BBB14551E16224100ABB49D /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = Models/Game.swift; sourceTree = "<group>"; };
+		5BBB14571E16225A00ABB49D /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Team.swift; path = Models/Team.swift; sourceTree = "<group>"; };
+		5BBB14591E16226500ABB49D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Models/Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBB14531E1614A300ABB49D /* Alamofire.framework in Frameworks */,
+				5BBB144E1E16103A00ABB49D /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +89,11 @@
 		5BBB141E1E16087500ABB49D = {
 			isa = PBXGroup;
 			children = (
+				5BBB144A1E160F7F00ABB49D /* Cartfile */,
 				5BBB14291E16087500ABB49D /* WhoDat */,
 				5BBB143E1E16087500ABB49D /* WhoDatTests */,
 				5BBB14281E16087500ABB49D /* Products */,
+				5BBB144C1E16103A00ABB49D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +111,9 @@
 			children = (
 				5BBB142A1E16087500ABB49D /* AppDelegate.swift */,
 				5BBB142C1E16087500ABB49D /* ViewController.swift */,
+				5BBB14551E16224100ABB49D /* Game.swift */,
+				5BBB14571E16225A00ABB49D /* Team.swift */,
+				5BBB14591E16226500ABB49D /* Player.swift */,
 				5BBB142E1E16087500ABB49D /* Main.storyboard */,
 				5BBB14311E16087500ABB49D /* Assets.xcassets */,
 				5BBB14331E16087500ABB49D /* LaunchScreen.storyboard */,
@@ -96,6 +131,15 @@
 			path = WhoDatTests;
 			sourceTree = "<group>";
 		};
+		5BBB144C1E16103A00ABB49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB14521E1614A300ABB49D /* Alamofire.framework */,
+				5BBB144D1E16103A00ABB49D /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +150,7 @@
 				5BBB14231E16087500ABB49D /* Sources */,
 				5BBB14241E16087500ABB49D /* Frameworks */,
 				5BBB14251E16087500ABB49D /* Resources */,
+				5BBB14501E16136600ABB49D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -181,6 +226,7 @@
 			files = (
 				5BBB14351E16087500ABB49D /* LaunchScreen.storyboard in Resources */,
 				5BBB14321E16087500ABB49D /* Assets.xcassets in Resources */,
+				5BBB144B1E160F7F00ABB49D /* Cartfile in Resources */,
 				5BBB14301E16087500ABB49D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBB14581E16225A00ABB49D /* Team.swift in Sources */,
 				5BBB142D1E16087500ABB49D /* ViewController.swift in Sources */,
+				5BBB14561E16224100ABB49D /* Game.swift in Sources */,
+				5BBB145A1E16226500ABB49D /* Player.swift in Sources */,
 				5BBB142B1E16087500ABB49D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,12 +386,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WhoDat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Davy.WhoDat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -350,12 +403,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WhoDat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Davy.WhoDat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
