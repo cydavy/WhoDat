@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7B3E4D1E5A1A0B00FD43D4 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B3E4C1E5A1A0B00FD43D4 /* NetworkProtocol.swift */; };
+		5B7B3E4F1E5A1D9300FD43D4 /* MockNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B3E4E1E5A1D9300FD43D4 /* MockNetworkController.swift */; };
+		5B7B3E511E5A207200FD43D4 /* mockresponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B3E501E5A207200FD43D4 /* mockresponse.json */; };
 		5BBB142B1E16087500ABB49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB142A1E16087500ABB49D /* AppDelegate.swift */; };
 		5BBB142D1E16087500ABB49D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB142C1E16087500ABB49D /* ViewController.swift */; };
 		5BBB14301E16087500ABB49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB142E1E16087500ABB49D /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 		5BBB14561E16224100ABB49D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB14551E16224100ABB49D /* Game.swift */; };
 		5BBB14581E16225A00ABB49D /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB14571E16225A00ABB49D /* Team.swift */; };
 		5BBB145A1E16226500ABB49D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB14591E16226500ABB49D /* Player.swift */; };
+		5BBB145C1E163A3F00ABB49D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB145B1E163A3F00ABB49D /* NetworkController.swift */; };
+		5BBB145E1E163AA700ABB49D /* secrets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB145D1E163AA700ABB49D /* secrets */; };
+		5BF36FC31E2B5D7500F41FAB /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF36FC21E2B5D7500F41FAB /* GameCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B7B3E4C1E5A1A0B00FD43D4 /* NetworkProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		5B7B3E4E1E5A1D9300FD43D4 /* MockNetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkController.swift; sourceTree = "<group>"; };
+		5B7B3E501E5A207200FD43D4 /* mockresponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockresponse.json; sourceTree = "<group>"; };
 		5BBB14271E16087500ABB49D /* WhoDat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoDat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB142A1E16087500ABB49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BBB142C1E16087500ABB49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +73,9 @@
 		5BBB14551E16224100ABB49D /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = Models/Game.swift; sourceTree = "<group>"; };
 		5BBB14571E16225A00ABB49D /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Team.swift; path = Models/Team.swift; sourceTree = "<group>"; };
 		5BBB14591E16226500ABB49D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Models/Player.swift; sourceTree = "<group>"; };
+		5BBB145B1E163A3F00ABB49D /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		5BBB145D1E163AA700ABB49D /* secrets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secrets; sourceTree = "<group>"; };
+		5BF36FC21E2B5D7500F41FAB /* GameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,7 @@
 		5BBB141E1E16087500ABB49D = {
 			isa = PBXGroup;
 			children = (
+				5B7B3E501E5A207200FD43D4 /* mockresponse.json */,
 				5BBB144A1E160F7F00ABB49D /* Cartfile */,
 				5BBB14291E16087500ABB49D /* WhoDat */,
 				5BBB143E1E16087500ABB49D /* WhoDatTests */,
@@ -114,10 +127,15 @@
 				5BBB14551E16224100ABB49D /* Game.swift */,
 				5BBB14571E16225A00ABB49D /* Team.swift */,
 				5BBB14591E16226500ABB49D /* Player.swift */,
+				5BBB145B1E163A3F00ABB49D /* NetworkController.swift */,
+				5B7B3E4E1E5A1D9300FD43D4 /* MockNetworkController.swift */,
+				5B7B3E4C1E5A1A0B00FD43D4 /* NetworkProtocol.swift */,
 				5BBB142E1E16087500ABB49D /* Main.storyboard */,
+				5BF36FC21E2B5D7500F41FAB /* GameCell.swift */,
 				5BBB14311E16087500ABB49D /* Assets.xcassets */,
 				5BBB14331E16087500ABB49D /* LaunchScreen.storyboard */,
 				5BBB14361E16087500ABB49D /* Info.plist */,
+				5BBB145F1E163AB500ABB49D /* Resources */,
 			);
 			path = WhoDat;
 			sourceTree = "<group>";
@@ -138,6 +156,15 @@
 				5BBB144D1E16103A00ABB49D /* SwiftyJSON.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BBB145F1E163AB500ABB49D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB145D1E163AA700ABB49D /* secrets */,
+			);
+			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7B3E511E5A207200FD43D4 /* mockresponse.json in Resources */,
 				5BBB14351E16087500ABB49D /* LaunchScreen.storyboard in Resources */,
+				5BBB145E1E163AA700ABB49D /* secrets in Resources */,
 				5BBB14321E16087500ABB49D /* Assets.xcassets in Resources */,
 				5BBB144B1E160F7F00ABB49D /* Cartfile in Resources */,
 				5BBB14301E16087500ABB49D /* Main.storyboard in Resources */,
@@ -245,11 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7B3E4F1E5A1D9300FD43D4 /* MockNetworkController.swift in Sources */,
 				5BBB14581E16225A00ABB49D /* Team.swift in Sources */,
 				5BBB142D1E16087500ABB49D /* ViewController.swift in Sources */,
+				5BBB145C1E163A3F00ABB49D /* NetworkController.swift in Sources */,
 				5BBB14561E16224100ABB49D /* Game.swift in Sources */,
+				5B7B3E4D1E5A1A0B00FD43D4 /* NetworkProtocol.swift in Sources */,
 				5BBB145A1E16226500ABB49D /* Player.swift in Sources */,
 				5BBB142B1E16087500ABB49D /* AppDelegate.swift in Sources */,
+				5BF36FC31E2B5D7500F41FAB /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +496,7 @@
 				5BBB14461E16087500ABB49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BBB14471E16087500ABB49D /* Build configuration list for PBXNativeTarget "WhoDatTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +505,7 @@
 				5BBB14491E16087500ABB49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,15 @@ class Team: NSObject {
     var league: String?
     var colour: String?
     
+//    override var description:String {
+//        return "id: " + id + "\n" +
+//               "city: " + city + "\n" +
+//               "name: " + name + "\n" +
+//               "abbreviation: " + name + "\n" +
+//               "league: " + league + "\n" +
+//               "colour: " + colour + "\n"
+//    }
+    
     init?(fromJSON: JSON?) {
         guard let json = fromJSON else {
             return nil
@@ -29,6 +38,14 @@ class Team: NSObject {
         abbreviation = json["abbreviation"].string
         league = json["league"].string
         colour = json["colour"].string
+    }
+    
+    func teamName() -> String? {
+        if let city = self.city,
+            let name = self.name {
+            return "\(city) \(name)"
+        }
+        return nil
     }
 
 }

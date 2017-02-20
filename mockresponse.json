@@ -1,0 +1,255 @@
+[
+  {
+  "location" : "Madison Square Gardens",
+  "homeTeam" : {
+    "abbreviation" : "NYR",
+    "id" : "9",
+    "colour" : "0161AB",
+    "city" : "New York",
+    "name" : "Rangers",
+    "league" : "nhl"
+  },
+  "id" : "33495",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "12:30PM",
+  "awayTeam" : {
+    "abbreviation" : "WSH",
+    "id" : "5",
+    "colour" : "CF132B",
+    "city" : "Washington",
+    "name" : "Capitals",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "Consol Energy Center",
+  "homeTeam" : {
+    "abbreviation" : "PIT",
+    "id" : "10",
+    "colour" : "CCCC99",
+    "city" : "Pittsburgh",
+    "name" : "Penguins",
+    "league" : "nhl"
+  },
+  "id" : "33496",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "3:00PM",
+  "awayTeam" : {
+    "abbreviation" : "DET",
+    "id" : "16",
+    "colour" : "EC1F26",
+    "city" : "Detroit",
+    "name" : "Red Wings",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "Canadian Tire Center",
+  "homeTeam" : {
+    "abbreviation" : "OTT",
+    "id" : "13",
+    "colour" : "E4173E",
+    "city" : "Ottawa",
+    "name" : "Senators",
+    "league" : "nhl"
+  },
+  "id" : "33497",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "5:00PM",
+  "awayTeam" : {
+    "abbreviation" : "WPJ",
+    "id" : "47",
+    "colour" : "002E62",
+    "city" : "Winnipeg",
+    "name" : "Jets",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "First Niagara Center",
+  "homeTeam" : {
+    "abbreviation" : "BUF",
+    "id" : "15",
+    "colour" : "002E62",
+    "city" : "Buffalo",
+    "name" : "Sabres",
+    "league" : "nhl"
+  },
+  "id" : "33498",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "6:00PM",
+  "awayTeam" : {
+    "abbreviation" : "CHI",
+    "id" : "20",
+    "colour" : "E3263A",
+    "city" : "Chicago",
+    "name" : "Blackhawks",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "Nassau Veterans Memorial Colis",
+  "homeTeam" : {
+    "abbreviation" : "NYI",
+    "id" : "8",
+    "colour" : "00529B",
+    "city" : "New York",
+    "name" : "Islanders",
+    "league" : "nhl"
+  },
+  "id" : "33499",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "6:00PM",
+  "awayTeam" : {
+    "abbreviation" : "NJD",
+    "id" : "7",
+    "colour" : "E03A3E",
+    "city" : "New Jersey",
+    "name" : "Devils",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "Nationwide Arena",
+  "homeTeam" : {
+    "abbreviation" : "CBJ",
+    "id" : "19",
+    "colour" : "00285C",
+    "city" : "Columbus",
+    "name" : "Blue Jackets",
+    "league" : "nhl"
+  },
+  "id" : "33500",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "6:00PM",
+  "awayTeam" : {
+    "abbreviation" : "NSH",
+    "id" : "18",
+    "colour" : "FDBB2F",
+    "city" : "Nashville",
+    "name" : "Predators",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "PNC Arena",
+  "homeTeam" : {
+    "abbreviation" : "CAR",
+    "id" : "3",
+    "colour" : "E03A3E",
+    "city" : "Carolina",
+    "name" : "Hurricanes",
+    "league" : "nhl"
+  },
+  "id" : "33501",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "7:30PM",
+  "awayTeam" : {
+    "abbreviation" : "TOR",
+    "id" : "12",
+    "colour" : "003777",
+    "city" : "Toronto",
+    "name" : "Maple Leafs",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "Pepsi Center",
+  "homeTeam" : {
+    "abbreviation" : "COL",
+    "id" : "22",
+    "colour" : "8B2942",
+    "city" : "Colorado",
+    "name" : "Avalanche",
+    "league" : "nhl"
+  },
+  "id" : "33502",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "8:00PM",
+  "awayTeam" : {
+    "abbreviation" : "TBL",
+    "id" : "1",
+    "colour" : "013E7D",
+    "city" : "Tampa Bay",
+    "name" : "Lightning",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "SAP Center",
+  "homeTeam" : {
+    "abbreviation" : "SJS",
+    "id" : "26",
+    "colour" : "05535D",
+    "city" : "San Jose",
+    "name" : "Sharks",
+    "league" : "nhl"
+  },
+  "id" : "33503",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "8:30PM",
+  "awayTeam" : {
+    "abbreviation" : "BOS",
+    "id" : "11",
+    "colour" : "000000",
+    "city" : "Boston",
+    "name" : "Bruins",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "Honda Center",
+  "homeTeam" : {
+    "abbreviation" : "ANA",
+    "id" : "29",
+    "colour" : "000000",
+    "city" : "Anaheim",
+    "name" : "Ducks",
+    "league" : "nhl"
+  },
+  "id" : "33504",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "9:00PM",
+  "awayTeam" : {
+    "abbreviation" : "LAK",
+    "id" : "28",
+    "colour" : "000000",
+    "city" : "Los Angeles",
+    "name" : "Kings",
+    "league" : "nhl"
+  }
+},
+{
+  "location" : "Rogers Arena",
+  "homeTeam" : {
+    "abbreviation" : "VAN",
+    "id" : "21",
+    "colour" : "07346F",
+    "city" : "Vancouver",
+    "name" : "Canucks",
+    "league" : "nhl"
+  },
+  "id" : "33505",
+  "league" : "nhl",
+  "date" : "2017-02-19",
+  "time" : "10:00PM",
+  "awayTeam" : {
+    "abbreviation" : "PHI",
+    "id" : "6",
+    "colour" : "F47940",
+    "city" : "Philadelphia",
+    "name" : "Flyers",
+    "league" : "nhl"
+  }
+}
+]
