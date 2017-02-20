@@ -22,9 +22,14 @@ class NetworkController: NSObject, NetworkProtocol {
     }
     
     func fetchTodaysGames(completion: @escaping ([Game]) -> Void) {
+//        static let 
+        
         Alamofire.request(baseURL.appending("1/games.json"), headers: requestHeader).responseJSON { response in
             switch response.result {
             case .success(let value):
+                let responseHeader = response.response?.allHeaderFields
+                print(responseHeader?["Expires"])
+                
                 let jsonResponse = JSON(value)
                 var games = [Game]()
                 for (_, subJson): (String, JSON) in jsonResponse {

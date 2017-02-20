@@ -10,21 +10,32 @@ import UIKit
 
 class ViewController: UITableViewController {
 
+    var loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    
     let gameCellIdentifier = "gameCell"
-    var gamesByLeague: [String : [Game]] = [String : [Game]]()
+    var gamesByLeague: [String : [GameCellViewModel]] = [String : [GameCellViewModel]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.tableView?.backgroundView?.addSubview(self.loadingIndicator)
+        self.loadingIndicator.startAnimating()
+        
+        weak var weakSelf: ViewController? = self
         let networkController: NetworkProtocol = MockNetworkController()
+//        let networkController: NetworkProtocol = NetworkController()
         networkController.fetchTodaysGames { (games) in
-            self.finishedLoading(games: games)
+            weakSelf?.loadingIndicator.stopAnimating()
+            weakSelf?.finishedLoading(games: games)
         }
         
         self.tableView.contentInset.top = 20
         self.tableView.register(GameCell.self, forCellReuseIdentifier: gameCellIdentifier)
     }
+    
+}
 
+extension ViewController {
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return self.gamesByLeague.keys.count
     }
@@ -48,15 +59,13 @@ class ViewController: UITableViewController {
         
         let sortedLeague = self.gamesByLeague.keys.sorted()
         let league = sortedLeague[indexPath.section]
+        let gameCellViewModel = self.gamesByLeague[league]?[indexPath.row]
         
-        if let game = self.gamesByLeague[league]?[indexPath.row],
-            let homeTeamName = game.homeTeam?.teamName(),
-            let awayTeamName = game.awayTeam?.teamName() {
-            cell.textLabel?.text = "\(homeTeamName) @ \(awayTeamName)"
-        }
+        cell.textLabel?.text = gameCellViewModel?.gameName()
+        cell.detailTextLabel?.text = gameCellViewModel?.gameTimeAndLocation()
+    
         return cell
     }
-
 }
 
 extension ViewController {
@@ -64,11 +73,12 @@ extension ViewController {
         for game: Game in games {
             if let league = game.league {
                 if self.gamesByLeague[league] == nil {
-                    self.gamesByLeague[league] = [Game]()
+                    self.gamesByLeague[league] = [GameCellViewModel]()
                 }
-                self.gamesByLeague[league]?.append(game)
+                self.gamesByLeague[league]?.append(GameCellViewModel(withGame: game))
             }
         }
+        self.tableView?.reloadData()
     }
 }
 
