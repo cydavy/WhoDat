@@ -17,20 +17,16 @@ class GameCellViewModel: NSObject {
         super.init()
     }
     
-    func gameName() -> String {
-        if let homeTeamName = game?.homeTeam?.teamName(),
-            let awayTeamName = game?.awayTeam?.teamName() {
-            return "\(homeTeamName) @ \(awayTeamName)"
-        }
-        return ""
+    func awayTeamName() -> String {
+        return game?.awayTeam?.teamName() ?? ""
     }
     
-    func gameTimeAndLocation() -> String {
-        if let gameTime = game?.time,
-            let gameLocation = game?.location {
-            return "\(gameLocation) - \(gameTime)"
-        }
-        return ""
+    func  homeTeamName() -> String {
+        return game?.homeTeam?.teamName() ?? ""
+    }
+    
+    func gameTime() -> String {
+        return game?.time ?? ""
     }
     
     

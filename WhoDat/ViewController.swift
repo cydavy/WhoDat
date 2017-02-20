@@ -27,9 +27,12 @@ class ViewController: UITableViewController {
             weakSelf?.loadingIndicator.stopAnimating()
             weakSelf?.finishedLoading(games: games)
         }
+
+        let gameCellNib: UINib = UINib(nibName: "GameCell", bundle: Bundle.main)
+        self.tableView.register(gameCellNib, forCellReuseIdentifier: gameCellIdentifier)
         
-        self.tableView.contentInset.top = 20
-        self.tableView.register(GameCell.self, forCellReuseIdentifier: gameCellIdentifier)
+        self.tableView.estimatedRowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 120
     }
     
 }
@@ -55,16 +58,14 @@ extension ViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: gameCellIdentifier, for: indexPath)
-        
-        let sortedLeague = self.gamesByLeague.keys.sorted()
-        let league = sortedLeague[indexPath.section]
-        let gameCellViewModel = self.gamesByLeague[league]?[indexPath.row]
-        
-        cell.textLabel?.text = gameCellViewModel?.gameName()
-        cell.detailTextLabel?.text = gameCellViewModel?.gameTimeAndLocation()
-    
-        return cell
+        let cell: GameCell? = tableView.dequeueReusableCell(withIdentifier: gameCellIdentifier, for: indexPath) as? GameCell
+        let gameCellViewModel = gameViewModel(forIndexPath: indexPath)
+      
+        cell?.configure(withGameCellViewModel: gameCellViewModel)
+        if let cell = cell {
+            return cell
+        }
+        return UITableViewCell()
     }
 }
 
@@ -79,6 +80,14 @@ extension ViewController {
             }
         }
         self.tableView?.reloadData()
+    }
+    
+    func gameViewModel(forIndexPath indexPath: IndexPath) -> GameCellViewModel? {
+        let sortedLeague = self.gamesByLeague.keys.sorted()
+        let league = sortedLeague[indexPath.section]
+        let gameCellViewModel = self.gamesByLeague[league]?[indexPath.row]
+        
+        return gameCellViewModel
     }
 }
 

@@ -10,7 +10,15 @@ import UIKit
 
 class GameCell: UITableViewCell {
     
+    @IBOutlet weak var awayTeamLogoImage: UIImageView?
+    @IBOutlet weak var homeTeamLogoImage: UIImageView?
     
+    @IBOutlet weak var awayTeamName: UILabel?
+    @IBOutlet weak var homeTeamName: UILabel?
+    
+    @IBOutlet weak var gameDate: UILabel?
+    
+    var gameCellViewModel: GameCellViewModel?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,4 +31,11 @@ class GameCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func configure(withGameCellViewModel gameCellViewModel: GameCellViewModel?) {
+        if let gameCellViewModel = gameCellViewModel {
+            self.awayTeamName?.text = gameCellViewModel.awayTeamName()
+            self.homeTeamName?.text = gameCellViewModel.homeTeamName()
+            self.gameDate?.text = gameCellViewModel.gameTime()
+        }
+    }
 }
