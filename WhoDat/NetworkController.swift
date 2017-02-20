@@ -14,7 +14,9 @@ class NetworkController: NSObject, NetworkProtocol {
     
     var requestHeader: HTTPHeaders?
     
-    fileprivate let baseURL = "https://player-number.amandeep.ca/"
+    private let baseURL = "https://player-number.amandeep.ca/"
+    private let gamesPath = "1/games.json"
+    private let playersPath = "1/players.json"
     
     override init() {
         super.init()
@@ -22,9 +24,7 @@ class NetworkController: NSObject, NetworkProtocol {
     }
     
     func fetchTodaysGames(completion: @escaping ([Game]) -> Void) {
-//        static let 
-        
-        Alamofire.request(baseURL.appending("1/games.json"), headers: requestHeader).responseJSON { response in
+        Alamofire.request(baseURL.appending(gamesPath), headers: requestHeader).responseJSON { response in
             switch response.result {
             case .success(let value):
                 let responseHeader = response.response?.allHeaderFields
@@ -42,6 +42,11 @@ class NetworkController: NSObject, NetworkProtocol {
                 print(error)
             }
         }
+    }
+    
+    func fetchPlayersInTeam(completetion: @escaping ([Player]) -> Void) {
+        
+
     }
 }
 

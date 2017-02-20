@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class GameTableViewController: UITableViewController {
 
     var loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
     
@@ -20,7 +20,7 @@ class ViewController: UITableViewController {
         self.tableView?.backgroundView?.addSubview(self.loadingIndicator)
         self.loadingIndicator.startAnimating()
         
-        weak var weakSelf: ViewController? = self
+        weak var weakSelf: GameTableViewController? = self
         let networkController: NetworkProtocol = MockNetworkController()
 //        let networkController: NetworkProtocol = NetworkController()
         networkController.fetchTodaysGames { (games) in
@@ -37,7 +37,7 @@ class ViewController: UITableViewController {
     
 }
 
-extension ViewController {
+extension GameTableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return self.gamesByLeague.keys.count
@@ -59,7 +59,7 @@ extension ViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: GameCell? = tableView.dequeueReusableCell(withIdentifier: gameCellIdentifier, for: indexPath) as? GameCell
-        let gameCellViewModel = gameViewModel(forIndexPath: indexPath)
+        let gameCellViewModel = self.gameCellViewModel(forIndexPath: indexPath)
       
         cell?.configure(withGameCellViewModel: gameCellViewModel)
         if let cell = cell {
@@ -69,7 +69,7 @@ extension ViewController {
     }
 }
 
-extension ViewController {
+extension GameTableViewController {
     func finishedLoading(games: [Game]) {
         for game: Game in games {
             if let league = game.league {
@@ -82,7 +82,7 @@ extension ViewController {
         self.tableView?.reloadData()
     }
     
-    func gameViewModel(forIndexPath indexPath: IndexPath) -> GameCellViewModel? {
+    func gameCellViewModel(forIndexPath indexPath: IndexPath) -> GameCellViewModel? {
         let sortedLeague = self.gamesByLeague.keys.sorted()
         let league = sortedLeague[indexPath.section]
         let gameCellViewModel = self.gamesByLeague[league]?[indexPath.row]

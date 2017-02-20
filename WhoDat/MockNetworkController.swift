@@ -26,4 +26,23 @@ class MockNetworkController: NetworkProtocol {
                 completion(games)
         }
     }
+    
+    func fetchPlayersInTeam(completetion: @escaping ([Player]) -> Void) {
+        if let path = Bundle.main.path(forResource: "mockresponse", ofType: "json"),
+            let pathURL = URL(string: "file://\(path)"),
+            let data = try? Data(contentsOf: pathURL, options: .mappedIfSafe),
+            let json = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) {
+            
+            let jsonResponse = JSON(json)
+            
+            var players = [Player]()
+            for (_, subJson): (String, JSON) in jsonResponse {
+                if let player = Player(fromJSON: subJson) {
+                    players.append(player)
+                }
+            }
+            
+            completetion(players)
+        }
+    }
 }

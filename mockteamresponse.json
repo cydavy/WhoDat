@@ -1,0 +1,860 @@
+[
+  {
+    "player": {
+      "id": "5263",
+      "lastName": "Abbott",
+      "firstName": "Spencer",
+      "jerseyNumber": "24",
+      "position": "Left winger",
+      "height": "5'9\"",
+      "weight": "170",
+      "birthDate": "1988-04-30",
+      "age": "28",
+      "birthCity": "Hamilton, ON",
+      "birthCountry": "Canada",
+      "isRookie": "true",
+      "league": "nhl",
+      "gamesPlayed": "1"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4620",
+      "lastName": "Anisimov",
+      "firstName": "Artem",
+      "jerseyNumber": "15",
+      "position": "Centre",
+      "height": "6'4\"",
+      "weight": "198",
+      "birthDate": "1988-05-24",
+      "age": "28",
+      "birthCity": "Yaroslavl",
+      "birthCountry": "Russia",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "54"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5547",
+      "lastName": "Baun",
+      "firstName": "Kyle",
+      "jerseyNumber": "39",
+      "position": "Right winger",
+      "height": "6'2\"",
+      "weight": "209",
+      "birthDate": "1992-05-04",
+      "age": "24",
+      "birthCity": "Toronto, ON",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "568",
+      "lastName": "Campbell",
+      "firstName": "Brian",
+      "jerseyNumber": "51",
+      "position": "Defenseman",
+      "height": "5'10\"",
+      "weight": "190",
+      "birthDate": "1979-05-23",
+      "age": "37",
+      "birthCity": "Strathroy, ON",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "56"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "3855",
+      "lastName": "Crawford",
+      "firstName": "Corey",
+      "jerseyNumber": "50",
+      "position": "Goalie",
+      "height": "6'2\"",
+      "weight": "208",
+      "birthDate": "1984-12-31",
+      "age": "32",
+      "birthCity": "Montreal, QC",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "38"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5475",
+      "lastName": "Darling",
+      "firstName": "Scott",
+      "jerseyNumber": "33",
+      "position": "Goalie",
+      "height": "6'6\"",
+      "weight": "232",
+      "birthDate": "1988-12-22",
+      "age": "28",
+      "birthCity": "Lemont, IL",
+      "birthCountry": "USA",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "24"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4933",
+      "lastName": "Desjardins",
+      "firstName": "Andrew",
+      "jerseyNumber": "11",
+      "position": "Centre",
+      "height": "6'1\"",
+      "weight": "195",
+      "birthDate": "1986-07-27",
+      "age": "30",
+      "birthCity": "Lively, ON",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "34"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "371",
+      "lastName": "Ehrhoff",
+      "firstName": "Christian",
+      "jerseyNumber": "55",
+      "position": "Defenseman",
+      "height": "6'2\"",
+      "weight": "196",
+      "birthCity": "Moers",
+      "birthCountry": "Germany",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "3757",
+      "lastName": "Fleischmann",
+      "firstName": "Tomas",
+      "jerseyNumber": "12",
+      "position": "Left winger",
+      "height": "6'1\"",
+      "weight": "192",
+      "birthDate": "1984-05-16",
+      "age": "32",
+      "birthCity": "Koprivnice",
+      "birthCountry": "Czechoslovakia",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "10072",
+      "lastName": "Forsling",
+      "firstName": "Gustav",
+      "jerseyNumber": "42",
+      "position": "Defenseman",
+      "height": "5'11\"",
+      "weight": "186",
+      "birthDate": "1996-06-12",
+      "age": "20",
+      "birthCity": "Linkoping",
+      "birthCountry": "Sweden",
+      "isRookie": "true",
+      "league": "nhl",
+      "gamesPlayed": "36"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4963",
+      "lastName": "Gustafsson",
+      "firstName": "Erik",
+      "jerseyNumber": "52",
+      "position": "Defenseman",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5522",
+      "lastName": "Hartman",
+      "firstName": "Ryan",
+      "jerseyNumber": "38",
+      "position": "Right winger",
+      "height": "5'11\"",
+      "weight": "191",
+      "birthCity": "Hilton Head Isl, SC",
+      "birthCountry": "USA",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "53"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5841",
+      "lastName": "Hinostroza",
+      "firstName": "Vince",
+      "jerseyNumber": "48",
+      "position": "Centre",
+      "height": "5'9\"",
+      "weight": "181",
+      "birthDate": "1994-04-03",
+      "age": "22",
+      "birthCity": "Bartlett, IL",
+      "birthCountry": "USA",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "46"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4401",
+      "lastName": "Hjalmarsson",
+      "firstName": "Niklas",
+      "jerseyNumber": "4",
+      "position": "Defenseman",
+      "height": "6'3\"",
+      "weight": "207",
+      "birthDate": "1987-06-06",
+      "age": "29",
+      "birthCity": "Eksjo",
+      "birthCountry": "Sweden",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "57"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "219",
+      "lastName": "Hossa",
+      "firstName": "Marian",
+      "jerseyNumber": "81",
+      "position": "Right winger",
+      "height": "6'1\"",
+      "weight": "210",
+      "birthDate": "1979-01-12",
+      "age": "38",
+      "birthCity": "Stara Lubovna",
+      "birthCountry": "Czechoslovakia",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "52"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4265",
+      "lastName": "Kane",
+      "firstName": "Patrick",
+      "jerseyNumber": "88",
+      "position": "Right winger",
+      "height": "5'11\"",
+      "weight": "181",
+      "birthDate": "1988-11-19",
+      "age": "28",
+      "birthCity": "Buffalo, NY",
+      "birthCountry": "USA",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "58"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "3715",
+      "lastName": "Keith",
+      "firstName": "Duncan",
+      "jerseyNumber": "2",
+      "position": "Defenseman",
+      "height": "6'1\"",
+      "weight": "200",
+      "birthDate": "1983-07-16",
+      "age": "33",
+      "birthCity": "Winnipeg, MB",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "58"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "10073",
+      "lastName": "Kempny",
+      "firstName": "Michal",
+      "jerseyNumber": "6",
+      "position": "Defenseman",
+      "height": "6'0\"",
+      "weight": "194",
+      "birthDate": "1990-09-08",
+      "age": "26",
+      "birthCity": "Hodonin",
+      "birthCountry": "Czechoslovakia",
+      "isRookie": "true",
+      "league": "nhl",
+      "gamesPlayed": "39"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5846",
+      "lastName": "Kero",
+      "firstName": "Tanner",
+      "jerseyNumber": "67",
+      "position": "Centre",
+      "height": "6'0\"",
+      "weight": "185",
+      "birthDate": "1992-07-24",
+      "age": "24",
+      "birthCity": "Southfield, MI",
+      "birthCountry": "USA",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "23"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4823",
+      "lastName": "Kruger",
+      "firstName": "Marcus",
+      "jerseyNumber": "16",
+      "position": "Centre",
+      "height": "6'0\"",
+      "weight": "181",
+      "birthDate": "1990-05-27",
+      "age": "26",
+      "birthCity": "Stockholm",
+      "birthCountry": "Sweden",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "46"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4930",
+      "lastName": "Mashinter",
+      "firstName": "Brandon",
+      "jerseyNumber": "53",
+      "position": "Left winger",
+      "height": "6'4\"",
+      "weight": "235",
+      "birthCity": "Bradford, ON",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5114",
+      "lastName": "McNeill",
+      "firstName": "Mark",
+      "jerseyNumber": "41",
+      "position": "Centre",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "10070",
+      "lastName": "Motte",
+      "firstName": "Tyler",
+      "jerseyNumber": "64",
+      "position": "Centre",
+      "height": "5'9\"",
+      "weight": "188",
+      "birthDate": "1995-03-10",
+      "age": "21",
+      "birthCity": "St. Clair, MI",
+      "birthCountry": "USA",
+      "isRookie": "true",
+      "league": "nhl",
+      "gamesPlayed": "33"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5811",
+      "lastName": "Panarin",
+      "firstName": "Artemi",
+      "jerseyNumber": "72",
+      "position": "Left winger",
+      "height": "5'11\"",
+      "weight": "170",
+      "birthDate": "1991-10-30",
+      "age": "25",
+      "birthCity": "Korkino",
+      "birthCountry": "Russia",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "58"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5167",
+      "lastName": "Panik",
+      "firstName": "Richard",
+      "jerseyNumber": "14",
+      "position": "Right winger",
+      "height": "6'1\"",
+      "weight": "208",
+      "birthCity": "Martin",
+      "birthCountry": "Slovakia",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "58"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5882",
+      "lastName": "Rasmussen",
+      "firstName": "Dennis",
+      "jerseyNumber": "70",
+      "position": "Centre",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "54"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "1042",
+      "lastName": "Rozsival",
+      "firstName": "Michal",
+      "jerseyNumber": "32",
+      "position": "Defenseman",
+      "height": "6'1\"",
+      "weight": "212",
+      "birthDate": "1978-09-03",
+      "age": "38",
+      "birthCity": "Vlasim",
+      "birthCountry": "Czechoslovakia",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "14"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4990",
+      "lastName": "Rundblad",
+      "firstName": "David",
+      "jerseyNumber": "5",
+      "position": "Defenseman",
+      "height": "6'2\"",
+      "weight": "195",
+      "birthDate": "1990-10-08",
+      "age": "26",
+      "birthCity": "Lycksele",
+      "birthCountry": "Sweden",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "10071",
+      "lastName": "Schmaltz",
+      "firstName": "Nick",
+      "jerseyNumber": "8",
+      "position": "Centre",
+      "height": "6'0\"",
+      "weight": "177",
+      "birthDate": "1996-02-23",
+      "age": "20",
+      "birthCity": "Madison, WI",
+      "birthCountry": "USA",
+      "isRookie": "true",
+      "league": "nhl",
+      "gamesPlayed": "39"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "3634",
+      "lastName": "Seabrook",
+      "firstName": "Brent",
+      "jerseyNumber": "7",
+      "position": "Defenseman",
+      "height": "6'3\"",
+      "weight": "221",
+      "birthDate": "1985-04-20",
+      "age": "31",
+      "birthCity": "Richmond, BC",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "56"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5830",
+      "lastName": "Svedberg",
+      "firstName": "Viktor",
+      "jerseyNumber": "43",
+      "position": "Defenseman",
+      "height": "6'9\"",
+      "weight": "234",
+      "birthDate": "1991-05-24",
+      "age": "25",
+      "birthCity": "Goteborg",
+      "birthCountry": "Sweden",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "0"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "4262",
+      "lastName": "Toews",
+      "firstName": "Jonathan",
+      "jerseyNumber": "19",
+      "position": "Centre",
+      "height": "6'2\"",
+      "weight": "208",
+      "birthDate": "1988-04-29",
+      "age": "28",
+      "birthCity": "Winnipeg, MB",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "49"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "364",
+      "lastName": "Tootoo",
+      "firstName": "Jordin",
+      "jerseyNumber": "22",
+      "position": "Right winger",
+      "height": "5'9\"",
+      "weight": "195",
+      "birthDate": "1983-02-02",
+      "age": "34",
+      "birthCity": "Churchill, MB",
+      "birthCountry": "Canada",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "36"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  },
+  {
+    "player": {
+      "id": "5460",
+      "lastName": "van Riemsdyk",
+      "firstName": "Trevor",
+      "jerseyNumber": "57",
+      "position": "Defenseman",
+      "height": "6'2\"",
+      "weight": "188",
+      "birthDate": "1991-07-24",
+      "age": "25",
+      "birthCity": "Middletown, NJ",
+      "birthCountry": "USA",
+      "isRookie": "false",
+      "league": "nhl",
+      "gamesPlayed": "34"
+    },
+    "team": {
+      "id": "20",
+      "city": "Chicago",
+      "name": "Blackhawks",
+      "abbreviation": "CHI",
+      "league": "nhl",
+      "colour": "E3263A"
+    }
+  }
+]

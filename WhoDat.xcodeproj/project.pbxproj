@@ -14,7 +14,7 @@
 		5B7B3E4F1E5A1D9300FD43D4 /* MockNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B3E4E1E5A1D9300FD43D4 /* MockNetworkController.swift */; };
 		5B7B3E511E5A207200FD43D4 /* mockresponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B3E501E5A207200FD43D4 /* mockresponse.json */; };
 		5BBB142B1E16087500ABB49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB142A1E16087500ABB49D /* AppDelegate.swift */; };
-		5BBB142D1E16087500ABB49D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB142C1E16087500ABB49D /* ViewController.swift */; };
+		5BBB142D1E16087500ABB49D /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB142C1E16087500ABB49D /* GameTableViewController.swift */; };
 		5BBB14301E16087500ABB49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB142E1E16087500ABB49D /* Main.storyboard */; };
 		5BBB14321E16087500ABB49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB14311E16087500ABB49D /* Assets.xcassets */; };
 		5BBB14351E16087500ABB49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB14331E16087500ABB49D /* LaunchScreen.storyboard */; };
@@ -65,7 +65,7 @@
 		5B7B3E501E5A207200FD43D4 /* mockresponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockresponse.json; sourceTree = "<group>"; };
 		5BBB14271E16087500ABB49D /* WhoDat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoDat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB142A1E16087500ABB49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BBB142C1E16087500ABB49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BBB142C1E16087500ABB49D /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 		5BBB142F1E16087500ABB49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BBB14311E16087500ABB49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BBB14341E16087500ABB49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				5BBB142A1E16087500ABB49D /* AppDelegate.swift */,
-				5BBB142C1E16087500ABB49D /* ViewController.swift */,
+				5BBB142C1E16087500ABB49D /* GameTableViewController.swift */,
 				5BBB14551E16224100ABB49D /* Game.swift */,
 				5BBB14571E16225A00ABB49D /* Team.swift */,
 				5BBB14591E16226500ABB49D /* Player.swift */,
@@ -288,7 +288,7 @@
 				5B7B3E4F1E5A1D9300FD43D4 /* MockNetworkController.swift in Sources */,
 				5BBB14581E16225A00ABB49D /* Team.swift in Sources */,
 				5B3A1D151E5B84A3002BA108 /* GameCellViewModel.swift in Sources */,
-				5BBB142D1E16087500ABB49D /* ViewController.swift in Sources */,
+				5BBB142D1E16087500ABB49D /* GameTableViewController.swift in Sources */,
 				5BBB145C1E163A3F00ABB49D /* NetworkController.swift in Sources */,
 				5BBB14561E16224100ABB49D /* Game.swift in Sources */,
 				5B7B3E4D1E5A1A0B00FD43D4 /* NetworkProtocol.swift in Sources */,

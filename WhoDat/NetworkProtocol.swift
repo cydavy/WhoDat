@@ -10,5 +10,6 @@ import Foundation
 
 protocol NetworkProtocol {
     func fetchTodaysGames(completion: @escaping ([Game]) -> Void)
+    func fetchPlayersInTeam(completetion: @escaping ([Player]) -> Void)
     
 }
