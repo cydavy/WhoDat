@@ -9,38 +9,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WhoDat/NetworkController.swift"
-            timestampString = "509262686.324746"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "fetchTodaysGames(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WhoDat/NetworkController.swift"
-            timestampString = "509262691.97114"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "fetchTodaysGames(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "WhoDat/ViewController.swift"
             timestampString = "509320443.588412"
             startingColumnNumber = "9223372036854775807"
@@ -57,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WhoDat/GameCell.swift"
-            timestampString = "509318552.082641"
+            filePath = "WhoDat/GameCellViewModel.swift"
+            timestampString = "509349997.866111"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "configure(withGameCellViewModel:)"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "awayTeamName()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,44 +41,44 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WhoDat/GameCell.swift"
-            timestampString = "509318824.975479"
+            filePath = "WhoDat/MockNetworkController.swift"
+            timestampString = "509350032.770422"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "configure(withGameCellViewModel:)"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchTodaysGames(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WhoDat.GameCell.configure (withGameCellViewModel : Swift.Optional&lt;WhoDat.GameCellViewModel&gt;) -&gt; ()"
+                  symbolName = "WhoDat.MockNetworkController.fetchTodaysGames (completion : (Swift.Array&lt;WhoDat.Game&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "WhoDat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Davy/Documents/XCode/WhoDat/WhoDat/GameCell.swift"
-                  timestampString = "509319089.227603"
+                  urlString = "file:///Users/Davy/Documents/XCode/WhoDat/WhoDat/MockNetworkController.swift"
+                  timestampString = "509350292.288448"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "19">
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "7075">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WhoDat.GameCell.configure (withGameCellViewModel : Swift.Optional&lt;WhoDat.GameCellViewModel&gt;) -&gt; ()"
+                  symbolName = "WhoDat.MockNetworkController.fetchTodaysGames (completion : (Swift.Array&lt;WhoDat.Game&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "WhoDat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Davy/Documents/XCode/WhoDat/WhoDat/GameCell.swift"
-                  timestampString = "509319089.229289"
+                  urlString = "file:///Users/Davy/Documents/XCode/WhoDat/WhoDat/MockNetworkController.swift"
+                  timestampString = "509350292.290266"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "56">
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "7123">
                </Location>
             </Locations>
          </BreakpointContent>

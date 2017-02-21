@@ -21,8 +21,8 @@ class GameTableViewController: UITableViewController {
         self.loadingIndicator.startAnimating()
         
         weak var weakSelf: GameTableViewController? = self
-        let networkController: NetworkProtocol = MockNetworkController()
-//        let networkController: NetworkProtocol = NetworkController()
+//        let networkController: NetworkProtocol = MockNetworkController()
+        let networkController: NetworkProtocol = NetworkController()
         networkController.fetchTodaysGames { (games) in
             weakSelf?.loadingIndicator.stopAnimating()
             weakSelf?.finishedLoading(games: games)

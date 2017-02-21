@@ -17,8 +17,6 @@ class GameCell: UITableViewCell {
     @IBOutlet weak var homeTeamName: UILabel?
     
     @IBOutlet weak var gameDate: UILabel?
-    
-    var gameCellViewModel: GameCellViewModel?
 
     override func awakeFromNib() {
         super.awakeFromNib()

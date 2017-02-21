@@ -18,11 +18,35 @@ class GameCellViewModel: NSObject {
     }
     
     func awayTeamName() -> String {
-        return game?.awayTeam?.teamName() ?? ""
+        guard let playingTeams = game?.playingTeams else {
+            return ""
+        }
+
+        for team in playingTeams {
+            if let team = team as? Team,
+                let city = team.city,
+                let name = team.name, team.isHome?.boolValue == false {
+                return "\(city) \(name)"
+            }
+                
+        }
+        return ""
     }
     
     func  homeTeamName() -> String {
-        return game?.homeTeam?.teamName() ?? ""
+        guard let playingTeams = game?.playingTeams else {
+            return ""
+        }
+        
+        for team in playingTeams {
+            if let team = team as? Team,
+                let city = team.city,
+                let name = team.name, team.isHome?.boolValue == true {
+                return "\(city) \(name)"
+            }
+            
+        }
+        return ""
     }
     
     func gameTime() -> String {
